@@ -1,0 +1,15 @@
+{
+  "grade-school/grade_school_test.py::SchoolTest::test_add_more_students_in_same_class": true,
+  "grade-school/grade_school_test.py::SchoolTest::test_add_student": true,
+  "grade-school/grade_school_test.py::SchoolTest::test_add_students_to_different_grades": true,
+  "grade-school/grade_school_test.py::SchoolTest::test_an_empty_school": true,
+  "grade-school/grade_school_test.py::SchoolTest::test_get_students_in_a_grade": true,
+  "grade-school/grade_school_test.py::SchoolTest::test_get_students_in_a_non_existant_grade": true,
+  "grade-school/grade_school_test.py::SchoolTest::test_sort_school": true,
+  "kindergarten-garden/kindergarten_garden_test.py::KindergartenGardenTests::test_different_garden_with_single_student": true,
+  "kindergarten-garden/kindergarten_garden_test.py::KindergartenGardenTests::test_disordered_test": true,
+  "kindergarten-garden/kindergarten_garden_test.py::KindergartenGardenTests::test_full_garden": true,
+  "kindergarten-garden/kindergarten_garden_test.py::KindergartenGardenTests::test_garden_with_single_student": true,
+  "kindergarten-garden/kindergarten_garden_test.py::KindergartenGardenTests::test_garden_with_two_students": true,
+  "kindergarten-garden/kindergarten_garden_test.py::KindergartenGardenTests::test_multiple_students_for_the_same_garden_with_three_students": true
+}
