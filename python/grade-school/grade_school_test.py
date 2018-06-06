@@ -38,6 +38,12 @@ class SchoolTest(unittest.TestCase):
         self.school.add("Jeff", 1)
         self.assertCountEqual(self.school.grade(5), ("Franklin", "Bradley"))
 
+    def test_students_in_grade_are_immutable(self):
+        self.school.add("Astronaut", 5)
+        self.school.grade(5)[0] = "Shazam!"
+
+        self.assertEqual(self.school.grade(5), ["Astronaut"])
+
     def test_get_students_in_a_non_existant_grade(self):
         self.assertCountEqual(self.school.grade(1), set())
 

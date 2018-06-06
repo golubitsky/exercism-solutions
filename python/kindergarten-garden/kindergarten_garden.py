@@ -12,7 +12,7 @@ class Garden(object):
 
     def __init__(self, diagram, students=_default_students):
         self.rows = diagram.split('\n')
-        self.students = sorted(studenty)
+        self.students = sorted(students)
 
     def plants(self, student):
         i = self.students.index(student)
